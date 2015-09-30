@@ -1,0 +1,64 @@
+body {
+	background-color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-size: 1300px 700px;
+}
+.header {
+	font-family: 'Open Sans Condensed', sans-serif;
+	position: fixed;
+	float: right;
+	width: 95%;
+	margin-top: 0px;
+	padding-top: 0px;
+	border-bottom: black 1px solid;
+	padding-right: 40px;
+}
+li {
+	color: white;
+	display: inline;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.toolbar li a:hover {
+	color: white;
+	font-weight: bold;
+}
+.space {
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+.second {
+	padding-top: 50px;
+}
+.hyphen div li ul li a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style-type: none;
+}
+.hyphen {
+	margin-top: 190px;
+	padding-left: 475px;
+}
+.apostrophe {
+	padding-top: 40px;
+}
+.script {
+	width: 115px;
+	height: 35px;
+	float: left;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+

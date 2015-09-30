@@ -1,0 +1,52 @@
+body {
+	background-color: #FFFFFF;
+}
+.header {
+	font-family: 'Open Sans Condensed', sans-serif;
+	position: fixed;
+	float: right;
+	background-color: white;
+	width: 95%;
+	border-bottom: black 1px solid;
+	padding-right: 40px;
+	margin-top: 0px;
+}
+li {
+	display: inline;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.space {
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: bold;
+}
+.script {
+	width: 115px;
+	height: 35px;
+	float: left;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+#item {
+	padding-left: 250px;
+	padding-right: 250px;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+.top {
+	padding-top: 0px;
+	margin-top: 0px;
+}
