@@ -1,7 +1,9 @@
 body {
-	background-color: white;
-	background-repeat: no-repeat;
-	background-size: 1300px 700px;
+	background: url(lakefill.JPG) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
 }
 .header {
 	padding-bottom: 30px;
@@ -41,14 +43,15 @@ div:nth-child(3) {
 	margin: 0px;
 	background-color: white;
 }
-.menu {
-	padding-left: 515px;
+#menu {
+	width: 300px;
+	margin: auto;	
 }
 #name p {
 	padding: 0px;
 	margin:0px;
 }
-img {
+/*img {
 	width: 400px;
 	height: 150px;
 	padding: 0px;
@@ -56,6 +59,12 @@ img {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
+}*/
+
+img {
+	width: 400px;
+	height: 150px;
+	left:50%;
 }
 li {
 	display: inline;
@@ -73,4 +82,21 @@ a:visited {
 }
 a:hover {
 	font-weight: bold;
+}
+.container-fluid {
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+.row-fluid {
+	height: 100%; 
+	display:table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+}
+ .centering {
+  float:none;
+  margin:0 auto;
 }
