@@ -1,29 +1,60 @@
 <html>
 <head>
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist\css\bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.5-dist\css\bootstrap-theme.min.css">
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="bootstrap-3.3.5-dist\js\bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="about.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="header" style="text-align: right">
-		<p>
-			<img src="img\nameblack.png" class="script"/>
-		</p>	
-		<p>
-			<ul class="toolbar"><link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-				<li class="space"><a href="index.html">home</a></li>
-				<li class="space"><a href="about.html">about</a></li>
-				<li class="space"><a href="portfolio.html">portfolio</a></li>
-				<li class="space"><a href="resume.html">resume</a></li>
-				<li class="space"><a href="contact.html">contact</a></li>
-			</ul>
-		</p>
-	</div>
-<div class="profpic" style="text-align: left">
-	<p><img src="C:\Users\Hyunjee\Documents\Coding\hyunjeelee.com\my-website\img\face.png"/></p>
-</div>	
-<div class="me">
-	<p><link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
-	<strong>Hello!</strong> I'm a sophomore at Northwestern University in Evanston, Illinois. I'm majoring in journalism and minoring in environmental policy and culture.
-	</p>
-	<p>
-	Despi
 	
+<div class="header">
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">HL</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">home</a></li>
+		<li><a href="about.html">about</a></li>
+		<li class="dropdown">
+          <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">portfolio<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="photography.html">photography</a></li>
+            <li><a href="videography.html">videography</a></li>
+            <li><a href="print.html">print</a></li>
+			<!--li><a href="audio.html">audio</a></li-->
+          </ul>
+        </li>
+		<li><a href="resume.html">resume</a></li>
+		<li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	</div>	
+	
+	
+		
+<div class="row">
+	<div class="col-lg-3 col-lg-offset-1 profpic" style="text-align: left">
+		<p><img src="C:\Users\Hyunjee\Documents\Coding\hyunjeelee.com\my-website\img\face.png"/></p>
+	</div>
+	<div class="col-lg-7 col-lg-offset-1 me">
+			<p><link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+			<strong>Hello!</strong> I'm a sophomore at Northwestern University in Evanston, Illinois. 
+			I'm majoring in journalism with a concentration in sociology and minoring in environmental policy and culture.
+			</p>
+			<p>
+			
+	</div>
+</div>

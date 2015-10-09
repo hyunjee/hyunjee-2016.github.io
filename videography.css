@@ -1,14 +1,11 @@
 body {
 	background-color: #FFFFFF;
-	background-size: 1300px 700px;
+	overflow: scroll;
 }
 .header {
 	font-family: 'Open Sans Condensed', sans-serif;
-	position: fixed;
 	float: right;
-	width: 95%;
-	border-bottom: solid black 1px;
-	padding-right: 40px;
+	width: 100%;
 }
 li {
 	display: inline;
@@ -38,4 +35,27 @@ a:hover {
 	padding-bottom: 10px;
 	padding-top: 0px;
 	margin-top: 0px;
+}
+#item {
+	padding-left: 250px;
+	padding-right: 250px;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+.top {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.bike {
+	font-size: 18px;
+	padding-top: 10px;
+}
+.house {
+	margin-top: 80px;
+}
+.line {
+	border-top: 1px solid black;
+}
+.mixed {
+	margin-top: 80px;
 }

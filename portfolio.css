@@ -5,11 +5,7 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	position: fixed;
 	float: right;
-	background-color: white;
-	width: 95%;
-	border-bottom: black 1px solid;
-	padding-right: 40px;
-	margin-top: 0px;
+	width: 100%;
 }
 li {
 	display: inline;
