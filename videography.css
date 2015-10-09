@@ -47,14 +47,16 @@ a:hover {
 	margin-top: 0px;
 }
 .bike {
-	font-size: 18px;
+	font-size: 19px;
 	padding-top: 10px;
+	border-right: 1px black solid;
 }
 .house {
 	margin-top: 80px;
 }
 .line {
-	border-top: 1px solid black;
+	font-size: 19px;
+	padding-top: 10px;
 }
 .mixed {
 	margin-top: 80px;
