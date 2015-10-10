@@ -27,7 +27,7 @@ body {
 	padding-bottom: 50px;
 }
 #name {
-	margin-top: 12%;
+	margin-top: 14%;
 	width: 100%;
 	padding: 0px;
 	margin-bottom:0px;
@@ -61,8 +61,8 @@ div:nth-child(3) {
 }*/
 
 img {
-	width: 25rem;
-	height: 10rem;
+	width: 29rem;
+	height: 12rem;
 	left:50%;
 }
 li {
