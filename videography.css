@@ -57,6 +57,7 @@ a:hover {
 .line {
 	font-size: 19px;
 	padding-top: 10px;
+	padding-right: 60px;
 }
 .mixed {
 	margin-top: 80px;
