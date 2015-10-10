@@ -51,14 +51,24 @@ a:hover {
 	padding-top: 10px;
 	border-right: 1px black solid;
 }
-.house {
-	margin-top: 80px;
+.strip {
+	font-size: 30px;
+	background-color: #c2dfff;
+	padding-left: 5%;
+	margin-right: 9%;
+	margin-top: 5%;
+}
+.first {	
+	font-size: 30px;
+	background-color: #c2dfff;
+	padding-left: 5%;
+	margin-right: 9%;
 }
 .line {
 	font-size: 19px;
 	padding-top: 10px;
-	padding-right: 60px;
+	padding-right: 5%;
 }
-.mixed {
-	margin-top: 80px;
+.line a:hover {
+	text-decoration: underline;
 }

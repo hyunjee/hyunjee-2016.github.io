@@ -6,9 +6,7 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	position: fixed;
 	float: right;
-	width: 95%;
-	border-bottom: solid black 1px;
-	padding-right: 40px;
+	width: 100%;
 }
 li {
 	display: inline;

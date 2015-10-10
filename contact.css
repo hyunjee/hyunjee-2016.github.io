@@ -20,11 +20,6 @@ li {
 	color: black;
 	font-weight: bold;
 }
-.space {
-	margin-top: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
 a:link {
 	color: black;
 	text-decoration: none;
@@ -33,9 +28,6 @@ a:visited {
 	color: black;
 	text-decoration: none;
 }
-.second {
-	padding-top: 50px;
-}
 .hyphen div li ul li a:hover {
 	text-decoration: underline;
 }
@@ -43,11 +35,7 @@ ul {
 	list-style-type: none;
 }
 .hyphen {
-	margin-top: 190px;
-	padding-left: 475px;
-}
-.apostrophe {
-	padding-top: 40px;
+	margin-top: 150%;
 }
 .script {
 	width: 115px;

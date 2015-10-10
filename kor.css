@@ -1,0 +1,74 @@
+body {
+	background: url(lakefill.JPG) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+}
+.header {
+	padding-bottom: 30px;
+	margin-right: 10px;
+	padding-top: 10px;
+}
+#language {
+  color: black;
+  font-family: Arial;
+  font-size: 10px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 50px;
+}
+#language1 {
+	color: black;
+	font-family: Arial;
+	font-size: 10px;
+	float: right;
+	padding-bottom: 50px;
+}
+#name {
+	margin-top: 14%;
+	width: 100%;
+	padding: 0px;
+	margin-bottom:0px;
+	
+}
+div:nth-child(3) {
+	margin: 0px;
+	padding: 0px;
+}
+#pic {
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+}
+#menu {
+	width: 300px;
+	margin: auto;	
+}
+#name p {
+	padding: 0px;
+	margin:0px;
+}
+img {
+	width: 29rem;
+	height: 12rem;
+	left:50%;
+}
+li {
+	display: inline;
+	width: 100%;
+	padding:10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: bold;
+}
