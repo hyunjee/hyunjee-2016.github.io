@@ -27,13 +27,11 @@ body {
 	padding-bottom: 50px;
 }
 #name {
-	color: #FFFFFF;
-	font-family: 'roboto condensed', sans-serif;
-	font-size: 75px;
-	margin-top: 80px;
+	margin-top: 12%;
 	width: 100%;
 	padding: 0px;
 	margin-bottom:0px;
+	
 }
 div:nth-child(3) {
 	margin: 0px;
@@ -63,8 +61,8 @@ div:nth-child(3) {
 }*/
 
 img {
-	width: 400px;
-	height: 150px;
+	width: 25rem;
+	height: 10rem;
 	left:50%;
 }
 li {
