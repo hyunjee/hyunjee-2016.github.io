@@ -1,6 +1,7 @@
 body {
 	background-color: #FFFFFF;
 	background-size: 1300px 700px;
+	font-family:나눔고딕코딩,NanumGothicCoding, 'Nanum Gothic Coding';
 }
 .header {
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -29,16 +30,16 @@ a:hover {
 	font-weight: bold;
 }
 .me {
-	font-family: 'roboto condensed', sans-serif;
+	font-family: 'Nanum Gothic Coding', monospace;
 	color: #000000;
 	padding-right: 0px;
-	margin-top: 15%;
-	font-size: 15px;
+	margin-top: 40%;
+	font-size: 5px;
 }
 .profpic {
-	margin-top: 10%;
-	width: 20%;
-	height: 20%;
+	margin-top: 40%;
+	width: 30px;
+	height: 20px;
 	margin-left: 7%;
 }
 .script {

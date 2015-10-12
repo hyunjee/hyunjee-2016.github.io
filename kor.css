@@ -9,6 +9,7 @@ body {
 	padding-bottom: 30px;
 	margin-right: 10px;
 	padding-top: 10px;
+	font-family:나눔고딕코딩,NanumGothicCoding, 'Nanum Gothic Coding';
 }
 #language {
   color: black;
@@ -42,10 +43,7 @@ div:nth-child(3) {
 	margin: 0px;
 	background-color: white;
 }
-#menu {
-	width: 300px;
-	margin: auto;	
-}
+
 #name p {
 	padding: 0px;
 	margin:0px;
@@ -57,9 +55,8 @@ img {
 }
 li {
 	display: inline;
-	width: 100%;
-	padding:10px;
 	font-family: 'Open Sans Condensed', sans-serif;
+	padding-left: 0;
 }
 a:link {
 	color: black;
@@ -71,4 +68,8 @@ a:visited {
 }
 a:hover {
 	font-weight: bold;
+}
+.menu {
+	padding: 0;
+	margin: auto;
 }
