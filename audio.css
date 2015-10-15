@@ -1,9 +1,9 @@
 body {
 	background-color: #FFFFFF;
+	overflow: scroll;
 }
 .header {
 	font-family: 'Open Sans Condensed', sans-serif;
-	position: fixed;
 	float: right;
 	width: 100%;
 }
@@ -36,9 +36,31 @@ a:hover {
 	padding-top: 0px;
 	margin-top: 0px;
 }
+#item {
+	padding-left: 250px;
+	padding-right: 250px;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+.top {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.bike {
+	font-size: 19px;
+	padding-top: 10px;
+	border-right: 1px black solid;
+}
+.strip {
+	font-size: 30px;
+	background-color: #EBDDE2;
+	padding-left: 5%;
+	margin-right: 9%;
+	margin-top: 5%;
+}
 .first {	
 	font-size: 30px;
-	background-color: #c2dfff;
+	background-color: #EBDDE2;
 	padding-left: 5%;
 	margin-right: 9%;
 }
@@ -49,21 +71,4 @@ a:hover {
 }
 .line a:hover {
 	text-decoration: underline;
-}
-.radio {
-	margin-top: 3000px;
-	padding-top: 30px;
-}
-.bike {
-	font-size: 19px;
-	padding-top: 10px;
-	border-right: 1px black solid;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-.strip {
-	font-size: 30px;
-	background-color: #c2dfff;
-	padding-left: 5%;
-	margin-right: 9%;
-	margin-top: 85%;
 }
