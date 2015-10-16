@@ -70,3 +70,6 @@ a:visited {
 a:hover {
 	font-weight: bold;
 }
+#menu {
+	font-size: 12px;
+}

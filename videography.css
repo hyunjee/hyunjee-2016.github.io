@@ -72,3 +72,6 @@ a:hover {
 .line a:hover {
 	text-decoration: underline;
 }
+.last {
+	margin-bottom: 10%;
+}

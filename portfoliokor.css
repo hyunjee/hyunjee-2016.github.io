@@ -47,8 +47,11 @@ a:hover {
 	margin-top: 0px;
 }
 .icon {
-	margin-top: 15%;
+	margin-top: 20%;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
-	font-size: 30px;
+	font-size: 23px;
+}
+.last {
+	padding-bottom: 10%;
 }

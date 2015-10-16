@@ -39,10 +39,11 @@ a:hover {
 .show {
 	margin-top: 0%;
 	padding: 0;
+	z-index: -1;
 }
 .first {	
 	font-size: 30px;
-	background-color: #c2dfff;
+	background-color:#EBDDE2;
 	padding-left: 5%;
 	margin-right: 9%;
 	margin-top: 5%;
@@ -59,4 +60,7 @@ a:hover {
 }
 .line a:hover {
 	text-decoration: underline;
+}
+.last {
+	padding-bottom: 10%;
 }
