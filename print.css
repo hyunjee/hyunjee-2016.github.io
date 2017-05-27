@@ -1,9 +1,9 @@
 body {
 	background-color: #FFFFFF;
+	overflow: scroll;
 }
 .header {
 	font-family: 'Open Sans Condensed', sans-serif;
-	position: fixed;
 	float: right;
 	width: 100%;
 }
@@ -35,4 +35,45 @@ a:hover {
 	padding-bottom: 10px;
 	padding-top: 0px;
 	margin-top: 0px;
+}
+#item {
+	padding-left: 250px;
+	padding-right: 250px;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+.top {
+	padding-top: 0px;
+	margin-top: 120px;
+	font-size: 25px;
+}
+.bike {
+	font-size: 19px;
+	padding-top: 200px;
+	border-right: 1px black solid;
+}
+.strip {
+	font-size: 30px;
+	background-color: #EBDDE2;
+	padding-left: 5%;
+	margin-right: 0%;
+	margin-top: 5%;
+}
+.first {	
+	font-size: 30px;
+	background-color: #EBDDE2;
+	padding-left: 5%;
+	margin-right: 9%;
+	padding-top: 5%;
+}
+.line {
+	font-size: 19px;
+	padding-top: 10px;
+	padding-right: 5%;
+}
+.line a:hover {
+	text-decoration: underline;
+}
+.last {
+	margin-bottom: 10%;
 }
